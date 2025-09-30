@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="liens_et_images">
+        <h1> Liens et Images </h1>
+        <a href="www.wikipedia.org"> La page principale de Wikipedia </a> <br>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuGapP34DD8UUYwbTOLchGjbuQxQ68PvROzEOndQFNLI76_sj9u12-_lqrXBngF6heyihQuIqTyzk5l3w6oRj4n1MB2bsgL1OKPWPoJ6gQ" alt="google" style="width: 100px;">
+    </div>
+
+    <div id="éléments">
+        <h1> Des éléments </h1>
+        <form id="form">
+            <input type="text" name="text" id="text" placeholder="Premiers pas avec Javascript" style="width: 200px;">
+
+            <br><br>
+
+            <input type="radio" name="choix" id="c1"><label for="c1" id="label_c1"> Choix 1</label>
+            <input type="radio" name="choix" id="c2"><label for="c2" id="label_c2"> Choix 2</label>
+            <input type="radio" name="choix" id="c3"><label for="c3" id="label_c3"> Choix 3</label>
+
+            <br><br>
+
+            <input type="password" name="password" id="password">
+
+            <br>
+
+            <input type="range" name="range" id="range"><label for="range" id="label_range">Volume</label>
+
+            <br>
+
+            <p id="range_value"> 0 </p>
+
+            <label for="checkbox"> case à cocher</label><input type="checkbox" id="checkbox"> <br>
+            <label for="date">Date: </label><input type="date" id="date"> <br>
+            <button type="submit" id="sub_button"> Ok </button> <br>
+        </form>
+    </div>
+
+    <div id="barres_de_progression">
+        <h1> Barres de Progression </h1>
+        <label for="progress1">Téléchargement en cours : </label><progress value="0" id="progress1"></progress> <br>
+        <label for="progress2">Espace Disponible : </label><progress value="0" id="progress2" style="height: 25px; accent-color: green;"></progress>
+    </div>
+
+    <script src="code.js"></script>
+
+</body>
+</html>
